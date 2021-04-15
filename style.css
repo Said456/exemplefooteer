@@ -1,0 +1,186 @@
+ 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato Black";
+    box-sizing: border-box;
+    font-size: 62.9%;
+}
+:root{
+    --black : #0000;
+    --white : #FFFF;
+    --dark-marron : #683E38;
+    --light-marron : #F9E6D0;
+    --dark-green : #006400;
+}
+
+.main-header li {
+    font-size: xx-large;
+    font-weight: bold;
+    
+}
+a {
+    color:black;
+    text-decoration: none;
+}
+
+.main-header {
+    background:white;
+    
+}
+
+nav ul li{
+    padding: 0 1rem;
+    
+    text-align: center;
+    position: relative;
+}
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 2rem;
+    justify-content: space-around;
+    
+}
+nav ul {
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+nav > ul li:hover .sous{
+    display: block;}
+
+.dropdown > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+.sousdropdown{
+    display: none;
+    box-shadow: 0px 1px 2px ;
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.sousdropdown li{
+    float: none;
+    width: 100%;
+    text-align: center;
+}
+.sousdropdown a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sousdropdown a:hover{
+    border-bottom: none;
+    background-color: var(--dark-marron);
+}
+nav > ul li:hover .sousdropdown{
+    display: block;
+}
+.btn {
+    padding:.8rem 2rem ;
+    border-radius: 20px;
+    color:var(--white);
+    font-size: large;
+}
+#log {
+    background-color:var(--dark-marron);
+
+}
+#panier {
+    background-color:black;
+    margin-left: 1rem;
+}
+.connect-btn {
+    display: inline-flex;
+    justify-content: space-between;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    bottom:0;  
+    width:100%;
+    height: 250px;   
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    
+  }
+  .item1 {
+        
+        background-color: white;
+        margin: 10px;
+        padding: 20px;
+        width: 900px;
+        
+        
+  }
+  .item2 {
+    
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 900px;
+    
+    
+}
+.item3 {
+    
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 900px;
+    
+    
+}
+.item4 {
+    
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    width: 900px;
+}
+  
+    
+
+p1 {
+    font-size: 15px;
+}
+  
+  
+  
+  
+  h3{
+      font-size: 13px;
+  }
+  h1 {
+      font-size: 15px;
+  }
+  .sponsor {
+      display: flex;
+      justify-content: space-around;
+      height: 80px;
+      padding: 1rem;
+  }
+  .footer li {
+      font-size: 14px;
+  }
+  
+  
+  
+
+  
+  
+
